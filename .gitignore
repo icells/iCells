@@ -1,0 +1,20 @@
+# Release artifacts — distributed via GitHub Releases, not tracked in git
+*.exe
+*.msi
+*.zip
+
+# Redundant Chinese demo folder (README*.md only references demos/)
+iCells功能演示/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+desktop.ini
+*.swp
+*.bak
+~$*
+
+# IDE
+.vs/
+.vscode/
+.idea/
